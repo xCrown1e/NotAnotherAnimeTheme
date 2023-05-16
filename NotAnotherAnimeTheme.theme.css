@@ -1,5 +1,5 @@
 /**
-* @name eee
+* @name e
 * @author puckzxz#2080
 * @version 3.2
 * @description A custom theme made by WubzyGD#8766's theme generator at https://wubzy.xyz/util/theme based on Puckzxz's NotAnotherAnimeTheme
@@ -9,7 +9,6 @@
 */
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
-@import url(https://g2ningyo.github.io/HorizontalNAAT/build/HNAAT.css);
 
 /* 
  * =========================================
@@ -22,7 +21,7 @@
  * =========================================
  */
 
-/*Generated at Tue, 16 May 2023 05:24:16 GMT -> Generator version Beta - 1.1.3*/
+/*Generated at Tue, 16 May 2023 05:26:53 GMT -> Generator version Beta - 1.1.3*/
 
 :root {
 
@@ -45,7 +44,7 @@
   */
   /*[SERVER LISTING]*/
   /*The number of columns in your server listing.*/
-  --server-listing-width: 72px;
+  --server-listing-width: 126px;
 
   /*[FONT SIZE]*/
   --font-size: 100%;
@@ -131,15 +130,6 @@
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
-
-
-  /*[HORIZONTAL SERVER LISTING]*/
-  /*Here's some CSS from Ningyo's horizontal server listing to change its settings.*/
-
-  /*==Server Listing Size, Spacing and Container==*/
-  /*SERVER LIST*/ --server-size: var(--Top-server-icon-size, var(--Top-size, 46px)) !important; /*Change only the pixels if wanted*/
-  /*SERVER LIST*/ --server-spacing: var(--Top-server-spacing, var(--Top-spacing, 10px))  !important; /*Change only the pixels if wanted*/
-  /*SERVER LIST*/ --server-container: calc(var(--server-size) + 20px)  !important; /*Please dont change this if you dont understand CSS*/
 }
 
 /*Changes the way popout background images apply to account for any size mismatching.*/
