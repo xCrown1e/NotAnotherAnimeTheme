@@ -21,7 +21,7 @@
  * =========================================
  */
 
-/*Generated at Tue, 16 May 2023 05:26:53 GMT -> Generator version Beta - 1.1.3*/
+/*Generated at Tue, 16 May 2023 05:30:01 GMT -> Generator version Beta - 1.1.3*/
 
 :root {
 
@@ -69,12 +69,12 @@
   /*[USER POPOUTS]*/
   /*The settings for the popouts when you click on a user in the members list (small popout) and when you click the "profile" button on a user (big popout)*/
   /*Similar to main theme settings.*/
-  --small-user-popout-background-image: linear-gradient(to bottom, #00000000 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
-  --small-user-popout-background-transparency: rgba(9,9,9, 0.7);
+  --small-user-popout-background-image: linear-gradient(to bottom, #0aa5ec00 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
+  --small-user-popout-background-transparency: rgba(, 0.7);
   --small-user-popout-background-image-position: center;
 
-  --big-user-popout-background-image: linear-gradient(to bottom, #00000000 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
-  --big-user-popout-background-transparency: rgba(9,9,9, 0.7);
+  --big-user-popout-background-image: linear-gradient(to bottom, #0aa5ec00 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
+  --big-user-popout-background-transparency: rgba(, 0.7);
   --big-user-popout-background-image-position: center;
 
   /*[CODE BLOCKS]*/
@@ -93,7 +93,7 @@
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
 
   --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
-  --add-discover-icon-color: #43b581;
+  --add-discover-icon-color: #0a83f3;
 
   --channel-limit-count-color: var(--channels-default);
   --channel-limit-background-left: rgba(200, 200, 200, 0.1);
