@@ -1,5 +1,5 @@
 /**
-* @name Really Color Theme
+* @name eee
 * @author puckzxz#2080
 * @version 3.2
 * @description A custom theme made by WubzyGD#8766's theme generator at https://wubzy.xyz/util/theme based on Puckzxz's NotAnotherAnimeTheme
@@ -9,6 +9,7 @@
 */
 
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+@import url(https://g2ningyo.github.io/HorizontalNAAT/build/HNAAT.css);
 
 /* 
  * =========================================
@@ -21,7 +22,7 @@
  * =========================================
  */
 
-/*Generated at Tue, 16 May 2023 05:19:29 GMT -> Generator version Beta - 1.1.3*/
+/*Generated at Tue, 16 May 2023 05:24:16 GMT -> Generator version Beta - 1.1.3*/
 
 :root {
 
@@ -44,7 +45,7 @@
   */
   /*[SERVER LISTING]*/
   /*The number of columns in your server listing.*/
-  --server-listing-width: 126px;
+  --server-listing-width: 72px;
 
   /*[FONT SIZE]*/
   --font-size: 100%;
@@ -69,12 +70,12 @@
   /*[USER POPOUTS]*/
   /*The settings for the popouts when you click on a user in the members list (small popout) and when you click the "profile" button on a user (big popout)*/
   /*Similar to main theme settings.*/
-  --small-user-popout-background-image: url(https://cdn.wallpapersafari.com/38/89/pZxtn4.jpg);
-  --small-user-popout-background-transparency: rgba(0,0,0, 0.7);
+  --small-user-popout-background-image: linear-gradient(to bottom, #00000000 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
+  --small-user-popout-background-transparency: rgba(9,9,9, 0.7);
   --small-user-popout-background-image-position: center;
 
-  --big-user-popout-background-image: url(https://cdn.wallpapersafari.com/38/89/pZxtn4.jpg);
-  --big-user-popout-background-transparency: rgba(0,0,0, 0.7);
+  --big-user-popout-background-image: linear-gradient(to bottom, #00000000 0%, #0000ffff 100%), url(https://th.bing.com/th/id/OIP.ioqP7AAgfKwhg0ypg7kywQHaEo?pid=ImgDet&rs=1);
+  --big-user-popout-background-transparency: rgba(9,9,9, 0.7);
   --big-user-popout-background-image-position: center;
 
   /*[CODE BLOCKS]*/
@@ -130,6 +131,15 @@
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+
+
+  /*[HORIZONTAL SERVER LISTING]*/
+  /*Here's some CSS from Ningyo's horizontal server listing to change its settings.*/
+
+  /*==Server Listing Size, Spacing and Container==*/
+  /*SERVER LIST*/ --server-size: var(--Top-server-icon-size, var(--Top-size, 46px)) !important; /*Change only the pixels if wanted*/
+  /*SERVER LIST*/ --server-spacing: var(--Top-server-spacing, var(--Top-spacing, 10px))  !important; /*Change only the pixels if wanted*/
+  /*SERVER LIST*/ --server-container: calc(var(--server-size) + 20px)  !important; /*Please dont change this if you dont understand CSS*/
 }
 
 /*Changes the way popout background images apply to account for any size mismatching.*/
